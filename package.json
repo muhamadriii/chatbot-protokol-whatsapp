@@ -10,6 +10,8 @@
     "simulator": "tsx src/bot/simulator.ts",
     "dev:simulator": "tsx src/bot/simulator.ts",
     "db:push": "prisma db push",
+    "db:migrate": "prisma migrate dev",
+    "db:migrate:deploy": "prisma migrate deploy",
     "db:pull": "tsx src/tools/dbPull.ts",
     "db:generate": "prisma generate",
     "db:seed": "tsx prisma/seed.ts",
